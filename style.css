@@ -1,0 +1,166 @@
+.header {
+    font-family: fredoka one;
+    font-weight: 100;
+    background-color: #415A77;
+    margin: 0;
+    text-align: center;
+    padding: 3px;
+    color: #778DA9;
+    box-shadow: 0 0 5px #000000;
+}
+
+.theme {
+    background-color: #0D1B2A;
+    font-family: fredoka one;
+    font-weight: 100;
+    margin: 0;
+}
+
+.catdiv {
+    text-align: left;
+    margin-left: 20px;
+    background-color: #1B263B;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10vh;
+    box-shadow: 0 0 5px #000000;
+}
+.catname {
+    font-family: fredoka one;
+    width: 97%;
+    display: block;
+    font-size: 20px; 
+    background-color: #415A77;
+    -webkit-text-fill-color: #778DA9;
+    border: none;
+    text-align: center; 
+}
+.cat {
+    height: 200px;
+}
+
+.buttondiv {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.feedbutton {
+    font-family: fredoka one;
+    font-weight: 100;
+    background-color: #778DA9;
+    color: #1B263B;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.feedbutton:hover {
+    background-color: #415A77;
+    color: #778DA9;
+}
+
+.feedbutton:active {
+    transform: scale(1.3);
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.statsdiv {
+    background-color: #1B263B;
+    color: #778DA9;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10vh;
+    box-shadow: 0 0 5px #000000;
+    margin-left: 20px;
+    height: 315px;
+    vertical-align: top;
+}
+
+.buyfoodbutton {
+    font-family: fredoka one;
+    font-weight: 100;
+    height: 120px;
+    font-size: 10x;
+    background-color: #778DA9;
+    color: #1B263B;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    width: 150px;
+}
+.buyfoodbutton:hover {
+    background-color: #415A77;
+    color: #778DA9;;
+}
+.buyfoodbutton:active {
+    transform: scale(1);
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+footer {
+    color: #778DA9;
+}
+h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.moneydiv {
+    background-color: #1B263B;
+    color: #778DA9;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10vh;
+    box-shadow: 0 0 5px #000000;
+    margin-left: 20px;
+    vertical-align: top;
+    width: 350px;
+    height: 315px;
+}
+
+.earnbutton {
+    font-family: fredoka one;
+    font-weight: 100;
+    background-color: #778DA9;
+    color: #1B263B;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.earnbutton:hover {
+    background-color: #415A77;
+    color: #778DA9;;
+}
+
+.earnbutton:active {
+    transform: scale(0.9);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
